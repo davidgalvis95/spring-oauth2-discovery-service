@@ -20,10 +20,12 @@
     <dependencies>
         <dependency>
             <groupId>org.springframework.cloud</groupId>
+            <!-- This will make my project act like a eureka client-->
             <artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
         </dependency>
         <dependency>
             <groupId>org.springframework.cloud</groupId>
+            <!-- This will make my project act like a eureka server-->
             <artifactId>spring-cloud-starter-netflix-eureka-server</artifactId>
         </dependency>
 
